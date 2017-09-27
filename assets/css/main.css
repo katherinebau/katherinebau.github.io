@@ -1916,7 +1916,7 @@
 		}
 
 	label {
-		color: #ffffff;
+		color: #000000;
 		display: block;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-size: 0.8em;
@@ -2579,11 +2579,11 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: #D5D0E2;
 		border-radius: 5px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-		color: #ffffff !important;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: Raleway, Helvetica, sans-serif;
@@ -2597,6 +2597,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+
 	}
 
 		input[type="submit"]:hover,
@@ -2604,7 +2605,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.025);
+			background-color: #D5D0E2;
 		}
 
 		input[type="submit"]:active,
@@ -2612,7 +2613,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: #D5D0E2;
 		}
 
 		input[type="submit"].icon:before,
@@ -2629,7 +2630,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #4c5c96;
+			background-color: #D5D0E2;
 			box-shadow: none;
 		}
 
@@ -2638,7 +2639,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #53639e;
+				background-color: #D0E2DE;
 			}
 
 			input[type="submit"].special:active,
@@ -3758,7 +3759,7 @@
 		}
 
 		#footer .inner .copyright {
-			border-top: solid 2px rgba(255, 255, 255, 0.125);
+			border-top: solid 2px rgba(0,0,0, 1);
 			list-style: none;
 			margin: 4em 0 2em 0;
 			padding: 2em 0 0 0;
@@ -3766,8 +3767,8 @@
 		}
 
 			#footer .inner .copyright li {
-				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgba(255, 255, 255, 0.35);
+				border-left: solid 2px rgba(0,0,0,1);
+				color: rgba(0,0,0,1);
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
@@ -3789,8 +3790,7 @@
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: none;
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
