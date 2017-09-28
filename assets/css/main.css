@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-image: linear-gradient(to top, rgba(255, 242, 251, 0.3), rgba(255, 242, 251, 0.3)), url("images/jimmywalkerbackground.png");
+		background-image: linear-gradient(to top, rgba(255, 242, 251, 0.3), rgba(255, 242, 251, 0.3)), url("images/jimmywalkerbackground.svg");
 		
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -3187,7 +3187,7 @@
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #ffffff;
-				background-image: linear-gradient(to top, rgba(255, 242, 251, 0.3), rgba(255, 242, 251, 0.3)), url("images/jimmywalkerbackground.png");
+				background-image: linear-gradient(to top, rgba(255, 242, 251, 0.3), rgba(255, 242, 251, 0.3)), url("images/jimmywalkerbackground.svg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3297,7 +3297,7 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #FFE9EE;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/jimmywalkerbackground.png");
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("images/jimmywalkerbackground.svg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
